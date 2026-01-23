@@ -1,10 +1,10 @@
 # Zálohovací program (Backup Tool)
 
-![Version](https://img.shields.io/badge/version-3.0.13-blue)
+![Version](https://img.shields.io/badge/version-3.0.14-blue)
 
 Komplexní nástroj pro automatické zálohování souborů a složek s podporou šifrování, komprese a vzdálené správy.
 
-## 🔥 Novinky ve verzi 3.0.13
+## 🔥 Novinky ve verzi 3.0.14
 *   **Debug Console:** Nové okno v Controlleru pro sledování logů v reálném čase (lokální i vzdálené).
 *   **Diagnostika sítě:** Přidán nástroj pro testování rychlosti (Speed Test), Ping a Tracert přímo v aplikaci.
 *   **Vylepšený SMART:** Detailní zobrazení stavu disků a moderní HTML report.
