@@ -1,6 +1,6 @@
 # Zálohovací program (Backup Tool)
 
-![Version](https://img.shields.io/badge/version-3.0.14-blue)
+![Version](https://img.shields.io/badge/version-3.0.15-blue)
 
 Komplexní nástroj pro automatické zálohování souborů a složek s podporou šifrování, komprese a vzdálené správy.
 
