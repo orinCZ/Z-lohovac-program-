@@ -1,8 +1,23 @@
 # Zálohovací program (Backup Tool)
 
-![Version](https://img.shields.io/badge/version-3.0.18-blue)
+![Version](https://img.shields.io/badge/version-3.0.19-blue)
 
 Komplexní nástroj pro automatické zálohování souborů a složek s podporou šifrování, komprese a vzdálené správy.
+
+## 🔥 Novinky ve verzi 3.0.18
+*   **Jednorázová záloha:** Nový režim pro rychlé zálohování bez ovlivnění hlavní konfigurace.
+*   **Uživatelské profily:** Možnost přepínat rozhraní mezi režimy Základní, Pokročilý a Expertní.
+*   **Vzdálený Restart:** Možnost provést tvrdý restart vzdáleného počítače přes Controller.
+*   **Wake on LAN:** Funkce pro probuzení počítačů v síti (včetně hromadného spuštění).
+*   **Integrovaná nápověda:** Tlačítko `?` pro zobrazení manuálu (online i offline).
+*   **Vylepšené reporty:** Přidán kompletní výpis nastavení do HTML reportu.
+*   **2FA Autentizace:** Podpora TOTP pro bezpečný vzdálený přístup.
+*   **Auditní logy:** Záznam bezpečnostních událostí do `audit.log`.
+*   **Safe Mode:** Fronta akcí pro dočasně nedostupná zařízení.
+*   **S3 Cloud:** Nativní podpora pro AWS S3 a kompatibilní úložiště.
+*   **VSS Snapshots:** Zálohování otevřených a uzamčených souborů (Windows).
+*   **Pokročilé režimy:** Podpora pro Diferenciální a Inkrementální zálohy.
+*   **Verifikace:** Kontrola integrity dat po přenosu.
 
 ## 🔥 Novinky ve verzi 3.0.14
 *   **Debug Console:** Nové okno v Controlleru pro sledování logů v reálném čase (lokální i vzdálené).
