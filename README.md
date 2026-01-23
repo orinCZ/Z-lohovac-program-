@@ -1,6 +1,6 @@
 # Zálohovací program (Backup Tool)
 
-![Version](https://img.shields.io/badge/version-3.0.19-blue)
+![Version](https://img.shields.io/badge/version-3.0.20-blue)
 
 Komplexní nástroj pro automatické zálohování souborů a složek s podporou šifrování, komprese a vzdálené správy.
 
@@ -46,11 +46,18 @@ Aplikace je distribuována jako spustitelný soubor `.exe` pro Windows.
 
 ## 📱 Vzdálená správa
 
-Součástí balíku je i **Backup Controller**, který umožňuje:
+Součástí balíku je i **Backup Controller** (Desktop a Android), který umožňuje:
 *   Sledovat průběh zálohy v reálném čase.
 *   Spouštět a zastavovat zálohy na dálku.
 *   Měnit konfiguraci klienta a spravovat bezpečnostní klíče.
 *   Zobrazit reporty a detailní stav disků.
+
+### Android Controller
+Nová mobilní aplikace (`backup_controller_android.py`) postavená na frameworku Kivy.
+
+*   **Skenování sítě:** Automaticky najde běžící instance Backup Tool v síti.
+*   **Git Bus:** Umožňuje ovládání zařízení i bez přímé IP viditelnosti (přes GitHub repozitář).
+*   **Sestavení:** Pro vygenerování `.apk` souboru použijte přiložený skript `package_android_controller.sh` (vyžaduje Linux a Buildozer).
 
 ---
 
